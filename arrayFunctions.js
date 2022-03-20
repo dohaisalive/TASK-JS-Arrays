@@ -46,7 +46,7 @@ function isArrayLengthEven(numbers) {
 function addLailaToArray(instructors) {
   // Your code here
   let newInstructors = instructors;
-  newInstructors.push("Laila");
+  newInstructors.push("laila");
   return newInstructors;
 }
 
@@ -83,7 +83,6 @@ function secondHalfOfArrayIfItIsEven(fruits) {
   else {
     newFruits = [];
   }
-
   return newFruits;
 }
 
@@ -104,13 +103,9 @@ function secondHalfOfArrayIfItIsEven(fruits) {
 function youGottaCalmDown(shout) {
   // Your code here
   let num = shout.indexOf("!");
-
   let newString = shout.slice(0,num+1);
   return newString;
-
 }
-
-console.log(youGottaCalmDown("HI!!!!!!!!!!"));
 
 module.exports = {
   isArrayLengthOdd,
