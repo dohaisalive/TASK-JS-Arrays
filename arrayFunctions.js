@@ -46,7 +46,7 @@ function isArrayLengthEven(numbers) {
 function addLailaToArray(instructors) {
   // Your code here
   let newInstructors = instructors;
-  newInstructors.push("laila");
+  newInstructors.push("Laila");
   return newInstructors;
 }
 
